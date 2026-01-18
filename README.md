@@ -127,4 +127,4 @@ MIT
 
 ---
 
-*Built with determination and countless cups of potion.*
+*Built with determination and countless cups of potion*
