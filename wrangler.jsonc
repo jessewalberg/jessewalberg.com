@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
+  "routes": [
+    {
+      "pattern": "jessewalberg.com",
+      "custom_domain": true
+    }
+  ],
   "name": "jessewalberg",
   "compatibility_date": "2026-01-16",
   "compatibility_flags": ["nodejs_compat"],
