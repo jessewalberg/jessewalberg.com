@@ -6,8 +6,6 @@ import {
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 
-import Header from '../components/Header'
-
 import WorkOSProvider from '../integrations/workos/provider'
 
 import ConvexProvider from '../integrations/convex/provider'
@@ -80,7 +78,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body className="antialiased">
         <WorkOSProvider>
           <ConvexProvider>
-            <Header />
             {children}
             <TanStackDevtools
               config={{
