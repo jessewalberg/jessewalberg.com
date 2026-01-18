@@ -1,0 +1,20 @@
+{
+  "projectName": "jessewalberg.com",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "pnpm",
+  "tailwind": true,
+  "addOnOptions": {},
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "biome",
+    "cloudflare",
+    "start",
+    "workos",
+    "convex",
+    "shadcn",
+    "tanstack-query"
+  ]
+}
