@@ -6,6 +6,7 @@ import { DialogueBox } from "./dialogue-box";
 const contactLinks = [
   { name: "GITHUB", url: "https://github.com/jessewalberg", icon: "GH" },
   { name: "LINKEDIN", url: "https://linkedin.com/in/jessewalberg", icon: "LI" },
+  { name: "X", url: "https://x.com/jessewalberg", icon: "X" },
   { name: "EMAIL", url: "mailto:jessewalberg@gmail.com", icon: "EM" },
 ];
 
